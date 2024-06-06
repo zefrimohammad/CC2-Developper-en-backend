@@ -113,14 +113,7 @@ use Illuminate\Support\Facades\Auth;
                                 </p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="{{ route('gestionCharts') }}" class="nav-link">
-                                <i class="nav-icon fas fa-th"></i>
-                                <p>
-                                    Gestion de Charts
-                                </p>
-                            </a>
-                        </li>
+
                     </ul>
                 </nav>
             </div>

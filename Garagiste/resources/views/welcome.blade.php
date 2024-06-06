@@ -8,7 +8,6 @@
 
         .card-img-top {
             height: 200px;
-            /* Adjust as needed */
             object-fit: cover;
         }
 
@@ -48,25 +47,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="card bg-light shadow p-3">
-                    <div class="card-body">
-                        <h6 class="card-title">Changing car wheels</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card bg-light shadow p-3">
-                    <div class="card-body">
-                        <h6 class="card-title">Car washing</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row mt-3">
             <div class="col-md-4">
                 <div class="card bg-light shadow p-3">
                     <div class="card-body">
@@ -75,6 +55,9 @@
                 </div>
             </div>
         </div>
+
+
+
     </div>
 
     <div class="container">

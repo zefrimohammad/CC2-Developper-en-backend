@@ -67,12 +67,10 @@ use Illuminate\Support\Facades\Auth;
         </nav>
 
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
-            <!-- Brand Logo -->
             <a href="{{ route('home') }}" class="brand-link">
                 <div style="margin-left: 9px;">Garagiste</div>
             </a>
 
-            <!-- Sidebar -->
             <div class="sidebar">
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="info">
@@ -80,18 +78,7 @@ use Illuminate\Support\Facades\Auth;
                     </div>
                 </div>
 
-                <!-- SidebarSearch Form -->
-                <div class="form-inline">
-                    <div class="input-group" data-widget="sidebar-search">
-                        <input class="form-control form-control-sidebar" type="search" placeholder="Search"
-                            aria-label="Search">
-                        <div class="input-group-append">
-                            <button class="btn btn-sidebar">
-                                <i class="fas fa-search fa-fw"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+
 
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
@@ -113,22 +100,8 @@ use Illuminate\Support\Facades\Auth;
                                 </p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="{{ route('gestionCharts') }}" class="nav-link">
-                                <i class="nav-icon fas fa-th"></i>
-                                <p>
-                                    Gestion de Charts
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ route('gestionReparations') }}" class="nav-link">
-                                <i class="nav-icon fas fa-th"></i>
-                                <p>
-                                    Gestion de Réparations
-                                </p>
-                            </a>
-                        </li>
+
+
                     </ul>
                 </nav>
             </div>
@@ -158,7 +131,7 @@ use Illuminate\Support\Facades\Auth;
                         placeholder="Search a user">
 
                     <button id="searchButton" class="btn" style="background-color: darkgray;"> <i class="fas fa-search"></i></button>
-                    <a href="{{ route('createUser') }}" class="btn btn-outline-info">Create a user</a>
+                    <a href="{{ route('createUser') }}" class="btn btn-outline-info">Create a new user</a>
                 </div>
 
 

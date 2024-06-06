@@ -47,7 +47,6 @@
                                 <i class="bi bi-gear"></i> <span>{{ auth()->user()->name }}</span>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="{{ route('profile') }}">Edit Profile</a></li>
                                 <li><a class="dropdown-item" href="{{ route('dashboard') }}">Dashboard</a></li>
                                 <li><a class="dropdown-item" href="{{ route('logout') }}">Log out</a></li>
                             </ul>
